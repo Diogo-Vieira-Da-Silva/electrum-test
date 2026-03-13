@@ -1,5 +1,4 @@
-
-⚙️ Project Setup and Execution
+ ⚙️ Project Setup and Execution
 
 To run this project, you need to have Node.js installed on your computer. If you do not have it installed yet, download and install it before proceeding.
 
@@ -7,8 +6,7 @@ To run this project, you need to have Node.js installed on your computer. If you
 
 You can create a new project folder using the terminal (optional):
 
-mkdir my-first-app
-cd my-first-app
+mkdir my-first-app cd my-first-app
 
 You may also use an existing folder if preferred.
 
@@ -16,13 +14,11 @@ You may also use an existing folder if preferred.
 
 Run the following command in the terminal to automatically generate the package.json file:
 
-npm init -y
-📌 3. Install Electron
+npm init -y 📌 3. Install Electron
 
 Install Electron as a development dependency:
 
-npm install electron --save-dev
-📌 4. Create the project files
+npm install electron --save-dev 📌 4. Create the project files
 
 Create the following files in the project folder:
 
@@ -38,8 +34,7 @@ These files should follow the same structure used in this repository. The render
 
 To start the application in development mode, run:
 
-npm start
-📦 6. Build the desktop executable
+npm start 📦 6. Build the desktop executable
 
 To generate a desktop version of the application, install electron-builder:
 
@@ -49,8 +44,7 @@ Then adjust the package.json file according to the configuration provided in thi
 
 After that, run:
 
-npm run build
-🖥️ 7. Run the generated application
+npm run build 🖥️ 7. Run the generated application
 
 After the build process finishes:
 
@@ -80,8 +74,7 @@ Para executar este projeto, é necessário ter o Node.js instalado em seu comput
 
 Você pode criar uma nova pasta para o projeto pelo terminal (opcional):
 
-mkdir meu-primeiro-app
-cd meu-primeiro-app
+mkdir meu-primeiro-app cd meu-primeiro-app
 
 Também é possível utilizar uma pasta já existente, conforme preferir.
 
@@ -89,13 +82,11 @@ Também é possível utilizar uma pasta já existente, conforme preferir.
 
 No terminal, execute o seguinte comando para gerar automaticamente o arquivo package.json:
 
-npm init -y
-📌 3. Instalar o Electron
+npm init -y 📌 3. Instalar o Electron
 
 Instale o Electron como dependência de desenvolvimento:
 
-npm install electron --save-dev
-📌 4. Criar os arquivos do projeto
+npm install electron --save-dev 📌 4. Criar os arquivos do projeto
 
 Crie os seguintes arquivos na pasta do projeto:
 
@@ -111,8 +102,7 @@ Esses arquivos devem seguir a mesma estrutura apresentada neste repositório. O 
 
 Para iniciar o aplicativo em modo de desenvolvimento, execute:
 
-npm start
-📦 6. Gerar a versão executável (Desktop)
+npm start 📦 6. Gerar a versão executável (Desktop)
 
 Para criar uma versão executável do aplicativo, instale o electron-builder:
 
@@ -122,10 +112,13 @@ Em seguida, ajuste o arquivo package.json conforme a configuração presente nes
 
 Depois execute:
 
-npm run build
-🖥️ 7. Executar o aplicativo gerado
+npm run build 🖥️ 7. Executar a build do aplicativo
 
 Após a finalização do build:
+
+Você pode executar com o npm start 🖥️ 7. Executar o aplicativo gerado
+
+Ou então você pode acessar de outro modo:
 
 Acesse a pasta do projeto
 
